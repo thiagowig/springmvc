@@ -7,8 +7,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-@Configuration
-@EnableWebMvc
+//@Configuration
+//@EnableWebMvc
 public class WebMvcConfig extends WebMvcConfigurerAdapter{
 
 	@Override
@@ -16,7 +16,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter{
 		configurer.enable();
 	}
 	
-	@Bean
+	//@Bean
 	public InternalResourceViewResolver internalResourceViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 		
